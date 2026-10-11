@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>은샘에게 · Happy Birthday</title>
+<style>
+:root{--ink:#51423c;--paper:#fcf8ef;--accent:#9b574a}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,'Apple SD Gothic Neo','Malgun Gothic',serif;min-height:100svh;background-image:radial-gradient(ellipse at 10% 10%,#eacdc34d,transparent 45%),radial-gradient(ellipse at 90% 85%,#d6deca66,transparent 45%)}button{font:inherit;cursor:pointer}main{max-width:980px;margin:auto;padding:54px 24px 28px;text-align:center}.eyebrow{font:11px/1.5 sans-serif;letter-spacing:4px;color:#9b7968}.flower{font-size:36px;color:#ad7b63;margin:20px}h1{font-size:clamp(49px,9vw,88px);line-height:1.04;font-weight:normal;letter-spacing:-3px;margin:12px 0 20px}h1 em{font-weight:normal;color:var(--accent)}.subtitle{font-size:14px;line-height:1.9;color:#87756b}.rule{height:1px;width:55px;background:#bba28b;margin:30px auto}.letters{display:grid;grid-template-columns:repeat(4,1fr);gap:26px;margin:48px 0 36px}.mail{border:0;background:none;color:var(--ink);padding:12px 0;position:relative}.mail:hover .envelope{transform:translateY(-9px) rotate(-2deg)}.mail:focus-visible{outline:2px solid var(--accent);outline-offset:8px;border-radius:10px}.envelope{height:128px;width:100%;position:relative;perspective:800px;transition:transform .4s;filter:drop-shadow(0 12px 8px #54423416)}.back{position:absolute;inset:0;border-radius:4px;background:var(--color)}.mini-paper{position:absolute;left:10%;right:10%;top:12%;height:82%;background:#fffaf1;border-radius:3px;transition:transform .65s .2s;display:grid;place-items:center;color:#b79b8d}.pocket{position:absolute;inset:0;background:linear-gradient(32deg,transparent 49.5%,#ffffff24 50%),linear-gradient(-32deg,transparent 49.5%,#ffffff24 50%),var(--color);clip-path:polygon(0 0,50% 54%,100% 0,100% 100%,0 100%);border-radius:4px}.flap{position:absolute;inset:0;background:var(--flap);clip-path:polygon(0 0,100% 0,50% 60%);transform-origin:top;transition:transform .5s;z-index:2}.seal{position:absolute;top:49%;left:calc(50% - 14px);width:28px;height:28px;border-radius:50%;background:#fff6e6;color:#b18370;display:grid;place-items:center;font-size:14px;z-index:3;box-shadow:0 2px 4px #0001;transition:opacity .2s}.mail.opening .flap{transform:rotateX(180deg);z-index:0}.mail.opening .mini-paper{transform:translateY(-48px)}.mail.opening .seal{opacity:0}.number{display:block;font:10px sans-serif;letter-spacing:2px;margin-top:27px;color:#9c8779}.sender{display:block;margin-top:9px;font-size:17px}.status{display:block;font:11px sans-serif;color:#a38c80;margin-top:9px}.progress{font:12px sans-serif;letter-spacing:1px;color:#978176}.ending{margin:25px auto 0;max-width:520px;line-height:1.9;animation:appear .8s both}.ending h2{font-weight:normal;font-size:26px}.ending p{font-size:14px}footer{margin-top:45px;font:10px sans-serif;letter-spacing:3px;color:#ad998b}dialog{border:0;background:transparent;padding:20px;width:min(620px,100%);max-height:92svh;color:var(--ink)}dialog::backdrop{background:#45382f70;backdrop-filter:blur(6px)}.letter-sheet{position:relative;background:#fffcf5;padding:48px 42px 34px;border-radius:4px;box-shadow:0 25px 80px #24181130;animation:sheet .6s both;text-align:left}.close{position:absolute;top:13px;right:16px;border:0;background:none;color:#8c7467;font:24px sans-serif;padding:6px 10px}.letter-tag{font:10px sans-serif;letter-spacing:3px;color:#a88b77}.letter-sheet h2{font-size:30px;font-weight:normal;margin:23px 0}.message{white-space:pre-wrap;font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-size:15px;line-height:2.05;overflow-wrap:anywhere}.signature{text-align:right;margin:28px 0;font-size:19px;font-style:italic}.done{width:100%;padding:13px;border:1px solid #cdb9a3;background:transparent;border-radius:3px;color:#806657;font:13px sans-serif}.close:focus-visible,.done:focus-visible{outline:2px solid var(--accent)}.confetti{position:fixed;top:-25px;pointer-events:none;z-index:10;animation:fall var(--time) linear forwards;font-size:var(--size);color:var(--color)}[hidden]{display:none!important}@keyframes sheet{from{opacity:0;transform:translateY(70px) rotate(2deg)}to{opacity:1;transform:translateY(0)}}@keyframes appear{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}@keyframes fall{to{transform:translate(var(--drift),110svh) rotate(360deg);opacity:.1}}@media(max-width:700px){main{padding-top:36px}.letters{grid-template-columns:repeat(2,1fr);gap:25px 28px;max-width:420px;margin:38px auto 30px}.envelope{height:118px}h1{letter-spacing:-2px}.letter-sheet{padding:40px 25px 25px}.flower{margin:13px}.rule{margin:22px auto}footer{margin-top:30px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.confetti{display:none}}
+.music{display:block;margin:0 auto 24px;border:1px solid #d6c5b5;border-radius:30px;background:#fffcf580;color:#806657;padding:10px 18px;font:12px sans-serif}.music:focus-visible{outline:2px solid var(--accent)}
+</style>
+</head>
+<body>
+<main>
+<button id="music" class="music" type="button" aria-pressed="false">♫ 생일 음악 켜기</button><div class="eyebrow">A LITTLE LOVE, JUST FOR YOU</div><div class="flower" aria-hidden="true">✳</div>
+<h1>Happy<br><em>Birthday.</em></h1>
+<p class="subtitle">은샘아, 너의 오늘이 오래도록 따뜻한 기억이 되기를.<br>너를 위해 도착한 네 통의 편지를 열어봐.</p><div class="rule"></div>
+<section class="letters" aria-label="친구들이 보낸 네 통의 편지" id="letters"></section>
+<p class="progress" id="progress" role="status" aria-live="polite">0 / 4 · 마음을 하나씩 열어보세요</p>
+<section class="ending" id="ending" hidden><h2>네 통의 편지, 하나의 마음.</h2><p>은샘아, 네가 우리의 친구라서 참 좋아.<br>생일 축하해. 앞으로의 계절도 함께하자 ♡</p><button class="done" id="celebrate">한 번 더 축하하기 ✧</button></section>
+<footer>2026년 10월 11일 · 은샘의 생일</footer>
+</main>
+<dialog id="dialog" aria-label="친구의 편지"><article class="letter-sheet"><button class="close" id="close" aria-label="편지 닫기">×</button><div class="letter-tag" id="letter-tag"></div><div class="message" id="message"></div><p class="signature" id="signature"></p><button class="done" id="done">마음을 간직하고 닫기</button></article></dialog>
+<script>
+// ✏️ 편지 교체 위치: 아래 LETTERS의 name(보낸 사람), title(제목), message(본문)를 수정하세요.
+// message는 백틱(`) 사이에 적으면 줄바꿈도 그대로 표시됩니다. 네 항목을 유지하세요.
+const LETTERS = [
+ {name:'가영',title:'네가 있어서 좋은 날들',message:`은샘아
+올해도 다사다난한 한 해 보내느라 고생많았어.
+누구보다도 열심히 살고 있는 널 보면서
+늘 대단하다고 생각해.
+그리고 항상 잘 챙겨줘서 고마워
+생일을 핑계로 이렇게 말할 수 있어서 다행이야
+나는 항상 너만큼 챙겨주지 못하는 것 같은데 미안하기도 해. 내가 당장 도와주거나 챙겨줄 수 없는 것 같아서 늘 미안해. 수술하고 나서도 어떤지, 어떻게 지내는지 항상 멀리서 보여지는 것만 보고 들여다보지 못하는 것 같아.
+그래서 진짜 고맙고 미안하다는 말밖에 못하겠다
+생일 즐겁고 행복하고 건강하게 보내길 바라고
+내년에는 다같이 더 즐거운 생일을 보내면 좋겠다
+진짜 생일 축하해!`,color:'#ddbaa8',flap:'#e6c8b8'},
+ {name:'미연',title:'너의 새로운 계절을 응원해',message:`블링블링 샘슈타
+생일 축하해요~♡
+
+언제나 반짝이는 눈빛으로
+누구보다 정보의 바다를 순항하는 탐색의 여왕
+샘스터를 보면 정말 멋지다는 생각뿐!
+
+힘들었던 만큼 운의 총량이 있다면,
+앞으로는 행복한 나날들이 가득할거에요~
+늘 하던만큼 고민한만큼 노력한만큼
+대가는 반드시 돌아온다고 믿어요
+운의 복리를 받을지어니~~~
+
+(내성인이라 반응이 느리지만,
+종종 보내주는 정보는 재미있고 신선하고 도움이 많이 된답니다~
+급 생각이 든거지만 에디터도 참 잘 어울릴 듯!)`,color:'#b7c3ae',flap:'#cbd3c4'},
+ {name:'예란',title:'우리의 다음 이야기도 함께',message:`은샘언니 올 한해도 고생 많았다!! 유독 수술이나 사고니 사건사고가 많았네ㅠ 생일 맞이로 작년보다 좀 더 행복해지십시다요✨ 걱정은 줄고 웃는 일은 더 많아져라🕊️`,color:'#b8c7cc',flap:'#cdd9dc'},
+ {name:'솔희',title:'오늘의 주인공에게',message:`샘슈타 올해도 수고했구만~~ 올해 많이 아팠던만큼 이제는 아프지망고 행복하고 열정 넘치는 샘슈타만의 행복한 나날들 응원할게💗 샤릉훼💖 -솔구가🐸`,color:'#c9b9ce',flap:'#dbcede'}
+];
+const read = new Set();
+const dialog = document.getElementById('dialog');
+let active = null, busy = false, timer;
+const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+LETTERS.forEach((letter,i)=>{
+ const button=document.createElement('button');button.className='mail';button.style.setProperty('--color',letter.color);button.style.setProperty('--flap',letter.flap);button.setAttribute('aria-label',`${letter.name}의 편지 열기`);
+ button.innerHTML='<span class="envelope" aria-hidden="true" style="display:block"><span class="back"></span><span class="mini-paper">♡</span><span class="flap"></span><span class="pocket"></span><span class="seal">♡</span></span><span class="number">LETTER 0'+(i+1)+'</span><span class="sender"></span><span class="status">열어보기 ↗</span>';
+ button.querySelector('.sender').textContent=letter.name;
+ button.addEventListener('click',()=>{
+  if(busy||dialog.open)return;startMusicOnFirstLetter();busy=true;active=button;button.classList.add('opening');
+  timer=setTimeout(()=>{
+   document.getElementById('letter-tag').textContent=`A LETTER FOR YOU · 0${i+1}`;
+   document.getElementById('message').textContent=letter.message;
+   document.getElementById('signature').textContent=`With love, ${letter.name}`;
+   dialog.showModal();read.add(i);button.querySelector('.status').textContent='읽은 편지 ♡';button.setAttribute('aria-label',`${letter.name}의 편지 다시 읽기`);
+   document.getElementById('progress').textContent=`${read.size} / 4 · ${read.size===4?'모든 마음이 도착했어요':'마음을 하나씩 열어보세요'}`;busy=false;
+  },reducedMotion?0:650);
+ });document.getElementById('letters').append(button);
+});
+function closeLetter(){dialog.close()}
+document.getElementById('close').onclick=closeLetter;document.getElementById('done').onclick=closeLetter;
+dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeLetter()}});
+let celebrated=false;
+dialog.addEventListener('close',()=>{active?.classList.remove('opening');active?.focus();if(read.size===4&&!celebrated){celebrated=true;document.getElementById('ending').hidden=false;celebrate()}});
+function celebrate(){if(reducedMotion)return;for(let i=0;i<65;i++){const p=document.createElement('span');p.className='confetti';p.setAttribute('aria-hidden','true');p.textContent=['✧','♡','·','✦'][i%4];p.style.left=Math.random()*100+'vw';p.style.setProperty('--time',3+Math.random()*3+'s');p.style.setProperty('--size',12+Math.random()*17+'px');p.style.setProperty('--drift',(Math.random()-.5)*180+'px');p.style.setProperty('--color',['#be8871','#97a589','#b5a1bc','#d4b16f'][i%4]);document.body.append(p);setTimeout(()=>p.remove(),6500)}}
+document.getElementById('celebrate').onclick=celebrate;
+
+// 생일 축하 멜로디: 외부 음원 없이 이 HTML 안에서 부드러운 소리를 만듭니다.
+const musicButton = document.getElementById('music');
+let audioContext, musicPlaying=false, musicStarted=false, musicTimeout, voices=[];
+const tune=[[67,.5],[67,.5],[69,1],[67,1],[72,1],[71,2],[67,.5],[67,.5],[69,1],[67,1],[74,1],[72,2],[67,.5],[67,.5],[79,1],[76,1],[72,1],[71,1],[69,2],[77,.5],[77,.5],[76,1],[72,1],[74,1],[72,2]];
+function scheduleTune(){
+ if(!musicPlaying)return;
+ let at=audioContext.currentTime+.1;
+ const beat=.48;
+ voices=voices.filter(v=>!v.ended);
+ for(const [midi,length] of tune){
+  const oscillator=audioContext.createOscillator(), gain=audioContext.createGain();
+  oscillator.type='sine';oscillator.frequency.value=440*Math.pow(2,(midi-69)/12);
+  gain.gain.setValueAtTime(0,at);gain.gain.linearRampToValueAtTime(.075,at+.025);gain.gain.exponentialRampToValueAtTime(.0001,at+length*beat+.24);
+  oscillator.connect(gain);gain.connect(audioContext.destination);
+  const voice={oscillator,gain,ended:false};voices.push(voice);
+  oscillator.onended=()=>{voice.ended=true;oscillator.disconnect();gain.disconnect()};
+  oscillator.start(at);oscillator.stop(at+length*beat+.28);at+=length*beat;
+ }
+ musicTimeout=setTimeout(scheduleTune,(at-audioContext.currentTime+2.5)*1000);
+}
+async function startMusic(){
+ musicStarted=true;
+ try{
+  audioContext ||= new (window.AudioContext||window.webkitAudioContext)();
+  await audioContext.resume();
+  if(musicPlaying)return;
+  musicPlaying=true;musicButton.textContent='♫ 생일 음악 끄기';musicButton.setAttribute('aria-pressed','true');scheduleTune();
+ }catch(error){musicButton.textContent='♫ 다시 눌러 음악 켜기'}
+}
+function stopMusic(){
+ musicPlaying=false;clearTimeout(musicTimeout);
+ for(const voice of voices){if(!voice.ended){try{voice.oscillator.stop()}catch(error){}}}voices=[];
+ musicButton.textContent='♫ 생일 음악 켜기';musicButton.setAttribute('aria-pressed','false');
+}
+function startMusicOnFirstLetter(){if(!musicStarted)startMusic()}
+musicButton.addEventListener('click',()=>{if(musicPlaying)stopMusic();else startMusic()});
+document.addEventListener('visibilitychange',()=>{if(audioContext){if(document.hidden)audioContext.suspend();else if(musicPlaying)audioContext.resume().catch(()=>{})}});
+</script>
+</body>
+</html>
